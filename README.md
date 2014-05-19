@@ -59,7 +59,7 @@ It is also possible to specify the encryption key.
     table.access_id.requires=CRYPT_AES(CRYPT_AES.get_or_create_key(keyf))
     table.password.requires=CRYPT_AES('master-key0123456789012345678901')
 
-If you do not want to use the SQLTABLE and SQLFORM, encryption and decryption is not done automatically. At that time, I use a method such as the following.
+If you do not want to use the SQLTABLE and SQLFORM, encryption and decryption is not done automatically. At that time, you can use some methods such as the following.
 
 * Field - validate
 * Field - formatter
