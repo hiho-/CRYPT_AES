@@ -17,7 +17,7 @@ For this reason, those who search for binary files, and is easy to install.
 
 After installing the PyCript, and then set up to operate in web2py application.
 
-　 This is a file of PyCrypt that is installed on the python, Set it in such as copying to "site-packages" folder of web2py. Please consult the web2py for more information.
+This is a file of PyCrypt that is installed on the python, set it in such as copying to "site-packages" folder of web2py. Please consult the web2py for more information.
   
 
     
