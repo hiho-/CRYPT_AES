@@ -29,7 +29,7 @@ You do not need to install any PyCrypt on GAE. It is necessary to __app.yaml__ o
       version: latest
   
 
-##How use CRYPT_AES
+##How to use CRYPT_AES
 
 Download the plugin file and upload it to the application.
 
