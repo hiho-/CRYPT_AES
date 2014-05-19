@@ -16,9 +16,11 @@ For this reason, those who search for binary files, and is easy to install.
 
 After installing the PyCript, and then set up to operate in web2py application.
 
-This is a file of PyCrypt that is installed on the python, set it in such as copying to "site-packages" folder of web2py. Please consult the web2py for more information.
+###PyCript on Server
 
-##PyCrypt on Google App Engine
+If you can not install the pycript in such as a shared server, set it in such as copying to "site-packages" folder of web2py. Please consult the web2py for more information.
+
+###PyCrypt on Google App Engine
 
 You do not need to install any PyCrypt on GAE. It is necessary to __app.yaml__ of application, to add the following.
 
