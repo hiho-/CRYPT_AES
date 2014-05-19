@@ -33,7 +33,7 @@ You do not need to install any PyCrypt on GAE. It is necessary to __app.yaml__ o
 
 Download the plugin file and upload it to the application.
 
-[download link](https://www.dropbox.com/sh/1x3ztesezz50d2d/AADR9XTpYiAueJjikoVtcAd9a)
+[**download link**](https://www.dropbox.com/sh/1x3ztesezz50d2d/AADR9XTpYiAueJjikoVtcAd9a)
 
 For a table field that you want to encrypt, and then write the following in the model.
 
