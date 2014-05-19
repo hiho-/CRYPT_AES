@@ -16,7 +16,7 @@ For this reason, those who search for binary files, and is easy to install.
 
 After installing the PyCript, and then set up to operate in web2py application.
 
-###PyCript on Server
+###PyCrypt on Server
 
 If you can not install the PyCript in such as a shared server, set it in such as copying to "site-packages" folder of web2py. Please consult the web2py for more information.
 
