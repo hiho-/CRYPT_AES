@@ -5,8 +5,7 @@ CRYPT_AES is a plugin for [web2py framework](web2py.com).
 This will encrypt the database field that you specify.
 
 
-PyCrypt
--------
+#PyCrypt
 
 In order to run this plugin, [PyCrypto](https://pypi.python.org/pypi/pycrypto) module is required.
 
@@ -19,8 +18,7 @@ After installing the PyCript, and then set up to operate in web2py application.
 
 This is a file of PyCrypt that is installed on the python, set it in such as copying to "site-packages" folder of web2py. Please consult the web2py for more information.
 
-PyCrypt on Google App Engine
-----------------------------
+##PyCrypt on Google App Engine
 
 You do not need to install any PyCrypt in GAE. It is necessary to __app.yaml__ of application, to add the following.
 
