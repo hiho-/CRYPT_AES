@@ -22,7 +22,11 @@ This is a file of PyCrypt that is installed on the python, set it in such as cop
 PyCrypt on Google App Engine
 ----------------------------
 
-You do not need to install any PyCrypt in GAE. __App.yaml__ of the application,
+You do not need to install any PyCrypt in GAE. It is necessary to __app.yaml__ of application, to add the following.
+
+    libraries:
+    - name: pycrypto
+      version: latest
   
 
     
