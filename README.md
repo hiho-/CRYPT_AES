@@ -66,3 +66,5 @@ If you do not want to use the SQLTABLE and SQLFORM, encryption and decryption is
 * Table - validate_and_insert
 * Set   - validate_and_update
     
+Please see also this article.
+  blog : <http://blog1.erp2py.com/2012/05/web2py_28.html> (japanese)
