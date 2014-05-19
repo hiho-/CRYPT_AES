@@ -61,8 +61,8 @@ It is also possible to specify the encryption key.
 
 If you do not want to use the SQLTABLE and SQLFORM, encryption and decryption is not done automatically. At that time, I use a method such as the following.
 
-#Field - validate
-#Field - formatter
-#Table - validate_and_insert
-#Set   - validate_and_update
+*Field - validate
+*Field - formatter
+*Table - validate_and_insert
+*Set   - validate_and_update
     
