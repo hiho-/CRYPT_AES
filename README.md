@@ -5,7 +5,7 @@ CRYPT_AES is a plugin for [web2py framework](web2py.com).
 This will encrypt the database field that you specify.
 
 
-#PyCrypt
+##PyCrypt
 
 In order to run this plugin, [PyCrypto](https://pypi.python.org/pypi/pycrypto) module is required.
 
@@ -29,6 +29,35 @@ You do not need to install any PyCrypt on GAE. It is necessary to __app.yaml__ o
       version: latest
   
 
-    
+##How use CRYPT_AES
+
+Download the plugin file and upload it to the application.
+
+For a table field that you want to encrypt, and then write the following in the model.
+
+    from plugin_crypt_aes.crypt_aes import CRYPT_AES
+    table = db.define_table('user_control',
+        Field('name', 'string', notnull=True, unique=True),
+        Field('access_id', 'string', notnull=True),
+        Field('password', 'password'),
+        format='%(name)s')
+    table.access_id.requires=crypt_aes=CRYPT_AES()
+    table.password.requires=crypt_aes
+
+As a result, 'access_id' field and 'password' of 'user_control' table are encrypted and written to the database.
+
+It is also possible to specify the encryption key.
+
+    import os
+    from plugin_crypt_aes.crypt_aes import CRYPT_AES
+    table = db.define_table('user_control',
+        Field('name', 'string', notnull=True, unique=True),
+        Field('access_id', 'string', notnull=True),
+        Field('password', 'password'),
+        format='%(name)s')
+    keyf = os.path.join(request.folder,'private','access_id.key')
+    table.access_id.requires=CRYPT_AES(CRYPT_AES.get_or_create_key(keyf))
+    table.password.requires=CRYPT_AES('master-key0123456789012345678901')
+
     
     
