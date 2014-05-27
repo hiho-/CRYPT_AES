@@ -33,7 +33,7 @@ You do not need to install any PyCrypt on GAE. It is necessary to __app.yaml__ o
 
 Download the plugin file and upload it to the application.
 
-[**web2py.plugin.crypt_aes.w2p**](https://github.com/hiho-/CRYPT_AES/releases) releases page (download)
+[**web2py.plugin.crypt_aes.w2p**](https://github.com/hiho-/CRYPT_AES/releases) (download - releases page )
 
 For a table field that you want to encrypt, and then write the following in the model.
 
